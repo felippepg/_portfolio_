@@ -1,5 +1,13 @@
+import GlobalStyle from './assets/style/GlobalStyle';
+import Home from './pages/Home';
+
 function App() {
-  return <h1>Teste</h1>;
+  return (
+    <>
+      <GlobalStyle />
+      <Home />
+    </>
+  );
 }
 
 export default App;
