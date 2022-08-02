@@ -19,7 +19,7 @@ export const Section = styled.section`
 
   p {
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 25px;
     color: #9c9c9c;
     width: 80%;
@@ -38,6 +38,7 @@ export const Section = styled.section`
     p {
       width: 100%;
       font-size: 13px;
+      font-weight: 300;
     }
 
     div {
@@ -75,6 +76,7 @@ export const Card = styled.a`
   width: 30%;
   margin-top: 0.5em;
   text-decoration: none;
+  text-align: center;
   text-transform: uppercase;
   border: 1px solid #62ba1b;
   border-radius: 3px;

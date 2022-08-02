@@ -1,11 +1,11 @@
 import Header from '../Components/Header';
-import Projects from '../Components/Projects';
+import Main from '../Components/Main';
 
 export default function Home() {
   return (
     <>
       <Header />
-      <Projects />
+      <Main />
     </>
   );
 }

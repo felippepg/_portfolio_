@@ -4,7 +4,7 @@ import { Container, Section, About, Title, Card, Photo } from './style';
 
 function Header() {
   return (
-    <Container>
+    <Container id="home">
       <Navbar />
       <Section>
         <About>

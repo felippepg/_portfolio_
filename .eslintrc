@@ -24,6 +24,7 @@
     "global-require": "off",
     "import/prefer-default-export": "off",
     "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
-    "func-names": "off"
+    "func-names": "off",
+    "react/prop-types": "off"
   }
 }

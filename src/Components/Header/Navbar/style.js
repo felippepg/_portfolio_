@@ -26,11 +26,13 @@ export const Navbar = styled.nav`
     li a {
       color: #9c9c9c;
       text-decoration: none;
-      margin-left: 3em;
+      margin-left: 2em;
+      display: flex;
+      align-items: center;
     }
 
     .social {
-      margin-right: 3em;
+      margin-left: 1em;
     }
 
     li a:hover {
@@ -56,6 +58,16 @@ export const Navbar = styled.nav`
       li {
         margin-top: 5px;
       }
+
+      .social {
+        margin-left: 2em;
+      }
     }
   }
+`;
+
+export const Logo = styled.img`
+  width: 30px;
+  height: 30px;
+  color: #000;
 `;
