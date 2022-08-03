@@ -1,6 +1,6 @@
 /* eslint-disable no-alert */
 import { useState } from 'react';
-import HamburgerBtn from '../../HamburgerBtn';
+import HamburgerBtn from './HamburgerBtn';
 import { Navbar, Logo } from './style';
 import Linkedin from '../../../assets/images/linkedin.svg';
 import Github from '../../../assets/images/github.svg';
@@ -10,7 +10,10 @@ export default function () {
 
   return (
     <>
-      <HamburgerBtn click={() => setShowMenu((showMenu) => !showMenu)} />
+      <HamburgerBtn
+        click={() => setShowMenu((showMenu) => !showMenu)}
+        changeButton={showMenu}
+      />
       <Navbar showList={showMenu}>
         <ul>
           <li>
@@ -20,7 +23,7 @@ export default function () {
             <a href="#projects">Projetos</a>
           </li>
           <li>
-            <a href="/">Trabalhos recentes</a>
+            <a href="#recents">Trabalhos recentes</a>
           </li>
         </ul>
         <ul>
