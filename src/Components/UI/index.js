@@ -10,7 +10,7 @@ export const Title = styled.h1`
 
   @media screen and (max-width: 1024px) {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
   }
 `;
 
@@ -21,11 +21,14 @@ export const Button = styled.a`
   color: white;
   background-color: #ffa217;
   border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 25px;
 `;
 
 export const Content = styled.p`
   color: #9c9c9c;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  line-height: 25px;
   margin-bottom: 1em;
 `;
