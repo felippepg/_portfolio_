@@ -294,7 +294,7 @@ Error generating stack: `+l.message+`
 
   @media screen and (max-width: 1024px) {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
   }
 `,Qo=ee.a`
   padding: 0.5em;
@@ -303,10 +303,13 @@ Error generating stack: `+l.message+`
   color: white;
   background-color: #ffa217;
   border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 25px;
 `,Yo=ee.p`
   color: #9c9c9c;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  line-height: 25px;
   margin-bottom: 1em;
 `,qf=ee.div`
   display: flex;
