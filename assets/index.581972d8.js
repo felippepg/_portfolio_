@@ -277,7 +277,7 @@ Error generating stack: `+o.message+`
     width: 100%;
     height: 40%;
   }
-`;function Mm(){return ce(Am,{id:"home",children:[L(Tm,{}),ce($m,{children:[ce(Om,{children:[L(Lm,{children:"Felippe Pires"}),L("p",{children:"Graduado em an\xE1lise e desenvolvimento pela FATEC (Faculdade e Tecnologia de Botucatu) 2021. H\xE1 1 ano estudando programa\xE7\xE3o como desenvolvedor front-end com foco em React. Possuo alguns projetos com fins did\xE1ticos no Github com foco em tecnologias como HTML, CSS, Javascript, React al\xE9m de Node e Mysql. Abaixo apresento alguns projetos realizados nessas tecnologias acima."}),L(Im,{href:"/",children:"Conhecer Projetos"})]}),L("div",{children:L(jm,{src:Rm,alt:"Felippe Pires"})})]})]})}const Dm=ee.section`
+`;function Mm(){return ce(Am,{id:"home",children:[L(Tm,{}),ce($m,{children:[ce(Om,{children:[L(Lm,{children:"Felippe Pires"}),L("p",{children:"Graduado em an\xE1lise e desenvolvimento pela FATEC (Faculdade e Tecnologia de Botucatu) 2021. H\xE1 1 ano estudando programa\xE7\xE3o como desenvolvedor front-end com foco em React. Possuo alguns projetos com fins did\xE1ticos no Github com foco em tecnologias como HTML, CSS, Javascript, React al\xE9m de Node e Mysql. Abaixo apresento alguns projetos realizados nessas tecnologias acima."}),L(Im,{href:"#projects",children:"Conhecer Projetos"})]}),L("div",{children:L(jm,{src:Rm,alt:"Felippe Pires"})})]})]})}const Dm=ee.section`
   width: 1000px;
   margin: auto;
 
